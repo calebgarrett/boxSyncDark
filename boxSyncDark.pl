@@ -17,7 +17,7 @@ if ( -l $box_app )  {
     $box_app_bundle = $box_app;
 }
 my $box_resources = "$box_app_bundle/Contents/Resources";
-# my $box_resources = "/Users/sdoran-l/Downloads/working";
+# my $box_resources = "/Users/ctgarret/Downloads/working";
  
 print "Opening $box_resources\n";
 opendir(BOXAPP, $box_resources) or die "Cannot open $box_resources";
